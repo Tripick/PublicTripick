@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Tripick",
+    "slug": "tripick",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Rocket_128.png",
+    "scheme": "tripick",
+    "notification": {
+      "icon": "./assets/images/Rocket_128.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/images/splash.png"
+    },
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apk.tripick",
+      "buildNumber": "1.0.0",
+      "userInterfaceStyle":"automatic"
+    },
+    "android": {
+      "package": "com.apk.tripick",
+      "versionCode": 1,
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "FD0B739D1F0887E468961DE0AEFCA5DB7FDB9F44"
+        },
+        "googleMaps": {
+          "apiKey": "AIzaSyCu3ungUgE7_BOzLST8kojw0cLY6XsWM98"
+        }
+      },
+      "userInterfaceStyle":"automatic"
+    }
+  }
+}
